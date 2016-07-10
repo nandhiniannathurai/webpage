@@ -1,7 +1,3 @@
-html{
-	background: url("3.jpg") no-repeat center center;
-    background-size: cover;
-}
 .wrap{
 	margin-left: 20px;
 	margin-right: 20px;
@@ -10,6 +6,7 @@ html{
 	height: 100px;
 }
 .logo{
+	margin-top: 20px;
 	float: left;
 }
 h1{
@@ -24,11 +21,12 @@ h1{
 .home{
 	float: right;
 	margin-right: 20px;
-	margin-top: 10px;
+	margin-top: 20px;
 	font-size: 30px;
 }
-a{
+.home a{
 	text-decoration: none;
+	color: black;
 }
 .nav{
 	margin-top: 20px;
