@@ -15,7 +15,7 @@
 .logo{
 	float: left;
 }
-h1{
+.header h1{
 	font-size: 50px;
 	font-family: sans-serif;
 	text-align: center;
@@ -73,66 +73,35 @@ h1{
 	color: red;
 	text-decoration: none;
 }
-.view{
+.id{
 	margin-top: 200px;
-	margin-left: 100px;
-	margin-right: 100px;
+	text-align: center;
 }
-.hero{
-	margin-top: 20px;
-	margin-left: 100px;
-	margin-right: 100px;
-}
-.about{
-	width: 800px;
-	float: left;
-}
-.pic{
-	margin-top: 20px;
-	margin-left: 30px;
-	float: left;
-}
-.about h2{
+.id p{
+	font-family: 'Play', sans-serif;
 	font-size: 30px;
 }
-.about p{
+.container_12{
+	margin-top: 20px;
+}
+.container_12 h1{
+	font-size: 50px;
+}
+.grid_6{
+	float: left;
+	height: 400px;
+}
+.grid_6 h1{
+	font-size: 30px;
+}
+.grid_6 p{
+	text-align: justify;
 	font-size: 15px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Abril Fatface', cursive;
 }
-.grid_12{
-	background: url("mem.jpg");
-	width: 960px;
-	height: 366px;
-}
-.grid_5{
-	margin-top: 15px;
-	float: left;
-	height: 200px;
-	font-family: 'Lobster', cursive;
-	font-size: 15px;
-}
-.grid_3{
-	float: left;
-	margin-top: 15px;
-	height: 200px;
-}
-.grid_3 img{
-	display: block;
-	margin: auto;
-	width: 100%;
-}
-.grid_4{
-	float: left;
-	margin-top: 15px;
-	height: 200px;
-}
-.grid_4 p{
-	margin-left: 50px;
-	font-family: 'Lobster', cursive;
-}
-.grid_4 img{
-	display: block;
-	margin: auto;
+.grid_6 a
+{
+	text-decoration: none;
 }
 .wom{
 	float: right;
