@@ -8,6 +8,7 @@
 	top: 0px;
 	left: 0px;
 	right: 0px;
+	z-index: 3;
 }
 .header{
 	margin-top: 0px;
@@ -74,9 +75,11 @@ h1{
 	text-align: center;
 }
 .view{
-	margin-top: 200px;
+	position: relative;
+	margin-top: 220px;
 	margin-left: 100px;
 	margin-right: 100px;
+	z-index: 2;
 }
 .hero{
 	margin-top: 20px;
@@ -99,6 +102,7 @@ h1{
 	font-size: 15px;
 	font-family: 'Montserrat', sans-serif;
 }
+
 .grid_12{
 	background: url("mem.jpg");
 	width: 960px;
