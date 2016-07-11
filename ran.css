@@ -7,27 +7,15 @@
 .cb-slideshow ul{
     list-style: none;
 }
-.cb-slideshow{
+.cb-slideshow,
+.cb-slideshow:after 
+{ 
     clear: both;
     position: relative;
     margin-top: 220px;
     margin-left: 0px;
     margin-right: 0px;
-    z-index: 2;
-}
-.cb-slideshow,
-.cb-slideshow:after 
-{ 
-    position: relative;
-    margin-top: 220px;
-    margin-left: 0px;
-    margin-right: 0px;
     z-index: 0; 
-}
-.cb-slideshow:after 
-{ 
-    content: '';
-    background: transparent url(../images/pattern.png) repeat top left; 
 }
 .cb-slideshow img{
     text-decoration: none;
