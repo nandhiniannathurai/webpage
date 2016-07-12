@@ -9,7 +9,7 @@
 	left: 0px;
 	right: 0px;
 	z-index: 3;
-	height: 210px;
+	height: 150px;
 }
 .header{
 	margin-top: 0px;
@@ -45,7 +45,7 @@
 	float: left;
 	margin-right: 20px;
 	margin-left: 20px;
-	margin-top: 40px;
+	margin-top: 20px;
 	display: block;
 	text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
@@ -67,7 +67,7 @@
 	font-size: 25px;
 }
 .don{
-	margin-top: 200px;
+	margin-top: 150px;
 	margin-left: 100px;
 	margin-right: 100px;
 	height: 850px;
@@ -87,13 +87,22 @@ form{
 	border-width: 2px;
 	border-radius: 5px;
 }
+footer{
+	background: #406895;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height:150px;
+}
 .wom{
 	float: right;
+	margin-top: 10px;
 	margin-right: 100px;
 }
 .copy{
 	clear: both;
 	float: left;
+	margin-top: 10px;
 	margin-left: 100px;
 }
 .copy p{
@@ -102,6 +111,7 @@ form{
 }
 .design{
 	float: right;
+	margin-top: 10px;
 	margin-right: 100px;
 }
 .design p{

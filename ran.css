@@ -3,7 +3,7 @@
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    height: 430px;
+    height: 470px;
 } 
 .cb-slideshow ul{
     list-style: none;
@@ -13,7 +13,7 @@
 { 
     clear: both;
     position: relative;
-    margin-top: 220px;
+    margin-top: 160px;
     margin-left: 0px;
     margin-right: 0px;
     z-index: 0; 
@@ -104,14 +104,6 @@
     -ms-animation-delay: 24s;
     animation-delay: 24s; 
 }
-.cb-slideshow li:nth-child(6) span 
-{ 
-    -webkit-animation-delay: 30s;
-    -moz-animation-delay: 30s;
-    -o-animation-delay: 30s;
-    -ms-animation-delay: 30s;
-    animation-delay: 30s; 
-}
 .cb-slideshow li:nth-child(1) div
  { 
     -webkit-animation-delay: 0s;
@@ -151,13 +143,6 @@
     -o-animation-delay: 24s;
     -ms-animation-delay: 24s;
     animation-delay: 24s; 
-}
-.cb-slideshow li:nth-child(6) div { 
-    -webkit-animation-delay: 30s;
-    -moz-animation-delay: 30s;
-    -o-animation-delay: 30s;
-    -ms-animation-delay: 30s;
-    animation-delay: 30s; 
 }
 /* Animation for the slideshow images */
 @-webkit-keyframes imageAnimation { 
